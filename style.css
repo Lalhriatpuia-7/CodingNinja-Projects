@@ -1,0 +1,53 @@
+:root{
+    background-color: #fff;
+    color: black;
+}
+.container{
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#toDoList{
+    width: 50%;
+    background-image: repeating-radial-gradient(white, orange 40%, yellow 30%);
+}
+.list{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    transition: 0.4s;
+    border-radius: 5px;
+    
+}
+.list:hover{
+    box-shadow: 1px 1px 1px 1px lightcoral;
+    
+}
+.list input{
+    color: darkslategrey;
+    border-radius: 50%;
+}
+.list span{
+    text-transform: capitalize;
+}
+#toDoInputBox{
+    padding: 10px;
+    margin: 10px;
+}
+#footer{
+    padding: 10px;
+    margin: 10px;
+    font-size: smaller;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.521);
+}
+.highlight{
+    background-color: burlywood;
+}
